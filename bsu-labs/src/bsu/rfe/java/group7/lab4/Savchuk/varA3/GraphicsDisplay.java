@@ -304,7 +304,7 @@ public class GraphicsDisplay extends JPanel {
             bounds = axisFont.getStringBounds("0", context);
             labelPos = xyToPoint(0, 0);
             // Вывести надпись в точке с вычисленными координатами
-            canvas.drawString("хуй", (float) labelPos.getX() + 10,
+            canvas.drawString("0", (float) labelPos.getX() + 10,
                     (float) (labelPos.getY() - bounds.getY()));
         }
 
